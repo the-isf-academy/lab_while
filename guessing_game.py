@@ -1,7 +1,4 @@
-######################
-# Unit 0 Lab 5
 # guessing_game.py
-#######################
 
 from random import randint
 
