@@ -9,10 +9,8 @@ print("----------------------------\n")
 game_won = False
 number = randint(1,10)
 
-while True:
+while game_won == False:
     user_guess = int(input("Guess a number: "))
 
     if user_guess == number:
         print("Correct")
-        game_won = True
-
