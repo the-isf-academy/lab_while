@@ -1,5 +1,7 @@
 # hailstone_sequence.py
 
+from turtle import *
+
 print("--- Hailstone Sequence ---")
 print()
 
