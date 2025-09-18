@@ -1,7 +1,4 @@
-######################
-# Unit 0 Lab 5
 # guessing_game.py
-#######################
 
 from random import randint
 
@@ -12,10 +9,13 @@ print("----------------------------\n")
 game_won = False
 number = randint(1,10)
 
-while True:
+while game_won == False:
     user_guess = int(input("Guess a number: "))
 
     if user_guess == number:
         print("Correct")
-        game_won = True
-
+        break
+    elif user_guess < number:
+        print("Too low")
+    else:
+        print("Too high")
